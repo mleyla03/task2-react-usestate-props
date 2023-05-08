@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 120px auto;
+}
+.hideshow{
+    background-color: red;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+  
+}
+.hideshow:hover{
+    background-color: green;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.change{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
